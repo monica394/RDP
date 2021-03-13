@@ -36,6 +36,6 @@ jobs:
     - name: Create Tunnel
       run: sc start ngrok
     - name: Connect to your RDP CPU 2 Core - 7GB Ram - 255 SSD.
-      run: cmd /c NGROK-CHECK.bat
+      run: cmd /NGROK-CHECK.bat
     - name: All Done! You can close Tab now! Maximum VM time:6h.
       run: cmd /loop.bat
